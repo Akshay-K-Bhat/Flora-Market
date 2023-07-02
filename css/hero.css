@@ -2,9 +2,8 @@
     display: flex;
     justify-content: space-around;
     height: fit-content;
-    min-height: 80vh;;
     align-items: center;
-    
+    margin:  100px 0;
 }
 
 .hero__section img{

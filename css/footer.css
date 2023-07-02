@@ -1,9 +1,9 @@
 .footer {
     display: flex;
     align-items: center;
-    min-height:40vh ;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    margin: 50px 0;
 }
 
 

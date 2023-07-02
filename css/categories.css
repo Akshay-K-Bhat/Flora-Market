@@ -1,6 +1,5 @@
 .catalogue {
-    min-height: 80vh;
-    
+    margin:  0 0 100px 0;
 }
 .catalogue-heading {
     display: flex;
