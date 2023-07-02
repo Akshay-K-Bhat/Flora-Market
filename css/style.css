@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('hero.css');
+@import url('header.css');
+@import url('categories.css');
+@import url('features.css');
+@import url('newsletter.css');
+@import url('footer.css');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    margin: 0 auto;
+    background-color: #F6F1E9;
+  }
+
+.container {
+    margin: 0 100px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    .header__nav {
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+    }
+
+    .header__menu {
+        display: none;
+    }
+
+    .header__menu-mobile {
+        display: contents;
+       
+    }
+
+    .header__menu-mobile img {
+        height: 30px;
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-btn {
+        display: flex;
+        justify-content: center;
+        padding: 50px 0 ;
+    }
+    
+}
+
+
+

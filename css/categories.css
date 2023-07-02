@@ -1,0 +1,40 @@
+.catalogue {
+    min-height: 80vh;
+    
+}
+.catalogue-heading {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 80px 0 ;
+}
+.catalogue-heading h1 {
+    font-size:46px;
+    font-weight: 500;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap:wrap
+}
+
+.category_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.category_card img {
+    height: 400px;
+    border-radius: 10px;
+}
+
+.category_card span {
+    font-size: 20px;
+    padding: 20px 0;
+}
+
