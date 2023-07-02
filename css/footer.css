@@ -36,10 +36,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .footer_menu div{
-    padding: 0 60px;
+    padding: 20px 60px;
 }
 
 
