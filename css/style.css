@@ -80,15 +80,35 @@
     }
 
     .hero-shopnow-btn{
-        padding: 10px 20px;
-        width: 8rem;
+        padding: 15px 35px;
+        
     }
 
     .hero-knowmore-btn  {
-        padding: 10px 20px;
-        width: 8rem;
+        padding: 15px 30px;
+        
+    }
+
+    .hero__section {
+        margin-top: 100px;
     }
     
+    .header__nav{
+        padding: 0;
+    }
+
+    .header__nav img {
+        height: 30px;
+    }
+
+    .header__logo img {
+        height: 50px;
+    }
+    .header__logo h4 {
+        font-size: 18px;
+    }
+    
+
 }
 
 
