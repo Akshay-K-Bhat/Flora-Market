@@ -19,7 +19,6 @@
   }
 
 .container {
-    margin: 0 100px;
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
@@ -80,10 +79,15 @@
         font-size: 18px;
     }
 
-    .hero__section img{
-        display: none;
+    .hero-shopnow-btn{
+        padding: 10px 20px;
+        width: 8rem;
     }
 
+    .hero-knowmore-btn  {
+        padding: 10px 20px;
+        width: 8rem;
+    }
     
 }
 

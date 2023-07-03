@@ -1,5 +1,5 @@
 .catalogue {
-    margin:  0 0 100px 0;
+    padding-top: 120px;
 }
 .catalogue-heading {
     display: flex;
@@ -30,7 +30,13 @@
 .category_card img {
     height: 400px;
     border-radius: 10px;
+    transition: transform 0.3s ease;
 }
+
+.category_card img:hover{
+    transform: scale(1.05);
+}
+
 
 .category_card span {
     font-size: 20px;

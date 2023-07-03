@@ -13,59 +13,98 @@
 <body>
   <div class="container">
     <header id="home">
-      <div class="header__nav" data-aos="slide-down">
-        <div class="header__logo">
-          <img src="./images/icon.png" alt="">
-          <h4>Flora Market</h4>
+      <div class="header">
+        <div class="header__nav" data-aos="slide-down">
+         
+          <div class="header_menu">
+            <div class="header__logo">
+              <img src="./images/icon.png" alt="">
+              <h4>Flora Market</h4>
+            </div>
+    
+            <div class="header__menu">
+              <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#category">Catalogue</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+  
+          <div class="header__nav-icons">
+  
+            <div class="header__menu-search">
+              <ul>
+                <li class="search_bar"><input type="text" name="" id="" placeholder="search"><img
+                    src="./images/search-interface-symbol.png" alt=""></li>
+              </ul>
+            </div>
+  
+            <div class="header__nav-user">
+              <ul>
+                <li><img src="./images/user (1).png" alt=""></li>
+              </ul>
+            </div>
+  
+            <div class="header__nav-cart">
+              <ul>
+                <li><img src="./images/shopping-cart.png" alt=""></li>
+              </ul>
+            </div>
+  
+          </div>
+  
+  
+          <div class="header__menu-mobile">
+            <img src="./images/menu.png" alt="">
+          </div>
         </div>
-
-        <div class="header__menu">
-          <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="#category">Catalogue</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-
-        <div class="header__menu-search">
-          <ul>
-            <li class="search_bar"><input type="text" name="" id="" placeholder="search"><img
-                src="./images/search-interface-symbol.png" alt=""></li>
-          </ul>
-        </div>
-
-        <div class="header__nav-user">
-          <ul>
-            <li><img src="./images/user (1).png" alt=""></li>
-          </ul>
-        </div>
-
-        <div class="header__menu-mobile">
-          <img src="./images/menu.png" alt="">
-        </div>
+  
       </div>
-
     </header>
     <section class="hero__section">
+
+
+
       <div class="hero">
-        <div class="hero__text" data-aos="fade-right" >
+        <div class="hero__text" data-aos="fade-right">
+
+          <div class="hero__green-accent">
+            <div class="hero__green-line"></div>
+          </div>
+
           <h1>Find perfect plants for <br> your home</h1>
           <h2>Beautiful plants that encourage you to get creative.</h2>
           <div class="hero-btn">
             <button class="hero-shopnow-btn">Shop Now</button>
+            <a href="#features"> <button class="hero-knowmore-btn">Know More</button></a>
+          </div>
+
+
+        </div>
+
+        <div class="hero_image">
+          <div>
+            <img src="./images/hero4.jpg" alt="" data-aos="slide-left">
+          </div>
+          <div class="hero__image-green-accent">
+            <div class="hero__image-green-line"></div>
           </div>
         </div>
-        <img src="./images/hero.jpg" alt="" data-aos="slide-left">
+
       </div>
+
+      <div id="category"></div>
+
     </section>
 
-    <section id="category" class="catalogue">
-      <div  class="catalogue-heading" data-aos="flip-up">
-        <h1>Categories</h1>
+    <section  class="catalogue">
+      <div class="catalogue-heading" data-aos="flip-up">
+        <h1 >Categories</h1>
       </div>
 
-      <div class="categories"  >
-        <div class="category_card" data-aos="slide-right" >
+      <div class="categories">
+        <div class="category_card" data-aos="slide-right">
           <img src="./images/jungle.jpg" alt="">
           <span>Jungle Plants</span>
         </div>
@@ -85,38 +124,39 @@
           <span>Bedroom Plants</span>
         </div>
 
-        
-          
-
+    
       </div>
 
     </section>
+    <div id="features">
+
+    </div>
     <div class="feature_text" data-aos="zoom-in">
-      <h1>Love and work are to people what water and 
+      <h1>Love and work are to people what water and
         sunshine are to plants</h1>
     </div>
 
-    <section class="features" >
+    <section class="features">
       <div class="feature_collection">
         <div class="cards">
-        <div class="feature_card-desc" data-aos="fade-up">
-          <h1>Featured</h1>
-          <h4>Our plants are 100% organic, 
-            we don't use pesticides or
-            harmful chemicals. But please don't eat them</h4>
+          <div class="feature_card-desc" data-aos="fade-up">
+            <h1>Featured</h1>
+            <h4>Our plants are 100% organic,
+              we don't use pesticides or
+              harmful chemicals. But please don't eat them</h4>
             <button>Shop all Favorites</button>
-        </div>
+          </div>
 
           <div class="feature_card" data-aos="fade-up">
             <img src="./images/plant1.jpg" alt="">
             <span>Plant 1</span>
           </div>
-  
+
           <div class="feature_card" data-aos="fade-up">
             <img src="./images/plant2.jpg" alt="">
             <span>Plant 2</span>
           </div>
-  
+
           <div class="feature_card" data-aos="fade-up">
             <img src="./images/plant3.jpg" alt="">
             <span>Plant 3</span>
@@ -124,12 +164,12 @@
         </div>
 
       </div>
-        
+
     </section>
 
     <section class="newsletter" data-aos="flip-down">
       <div class="newsletter_text">
-        <h1>Get 15% off your next order,  Subscribe to our <br> Newsletter</h1>
+        <h1>Get 15% off your next order, Subscribe to our <br> Newsletter</h1>
       </div>
       <div class="newsletter_subscribe">
         <input type="text" placeholder="Enter your email here"><button>Subscribe</button>
@@ -138,44 +178,44 @@
 
     <footer class="footer" data-aos="slide-up">
       <div class="footer__logo">
+        <a href="#home">
         <img src="./images/icon.png" alt="">
+       </a>
         <h4>Flora Market</h4>
       </div>
 
-     <div class="footer_menu">
-      <div class="footer_connect">
-        <h2>Connect</h2>
-        <ul>
-          <li>Instagram</li>
-          <li>Facebook</li>
-          <li>YouTube</li>
-        </ul>
-      </div>
+      <div class="footer_menu">
+        <div class="footer_connect">
+          <h2>Connect</h2>
+          <ul>
+            <li>Instagram</li>
+            <li>Facebook</li>
+            <li>YouTube</li>
+          </ul>
+        </div>
 
-      <div class="footer_resources">
-        <h2>Resources</h2>
-        <ul>
-        <li>Return Policy</li>
-        <li>FAQs</li>
-        <li>Privacy Policy</li>
-        </ul>
-      </div>
+        <div class="footer_resources">
+          <h2>Resources</h2>
+          <ul>
+            <li>Return Policy</li>
+            <li>FAQs</li>
+            <li>Privacy Policy</li>
+          </ul>
+        </div>
 
-      <div class="footer_about">
-        <h2>About</h2>
-        <ul>
-          <li>Our Story</li>
-          <li>Careers</li>
-          <li>Press</li>
-        </ul>
-      </div>
-     </div>
-
+        <div class="footer_about">
+          <h2>About</h2>
+          <ul>
+            <li>Our Story</li>
+            <li>Careers</li>
+            <li>Press</li>
+          </ul>
+        </div>
     </footer>
 
 
-
   </div>
+  <script src="Javascript\script.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init({
@@ -183,6 +223,8 @@
       offset: 100,
     });
   </script>
+
+
 </body>
 
 </html>

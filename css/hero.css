@@ -1,13 +1,18 @@
+.hero__section {
+    margin-top: 170px;
+}
+
 .hero {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     height: fit-content;
     align-items: center;
     margin:  100px 0;
 }
 
+
 .hero__section img{
-    height: 500px;
+    height: 350px;
     border-radius: 40px;
     object-fit: contain;
 }
@@ -15,7 +20,7 @@
 .hero__text {
     position: relative;
     padding: 0 30px;
-    z-index: 1;
+
 }
 
 .hero__text h1{
@@ -33,10 +38,56 @@
 }
 
 .hero-shopnow-btn {
-    background-color: black;
+    background-color: #17594A;
     color: white;
     padding: 20px 60px;
     border-radius: 30px;
     text-transform: uppercase;
     cursor: pointer;
+    border: none;
+}
+
+
+.hero-knowmore-btn {
+    background-color:white;
+    color: black;
+    padding: 20px 60px;
+    border: 1px solid black;
+    border-radius: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-left: 80px;
+}
+
+.hero-knowmore-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.hero__green-line{
+    flex: 1;
+    background-color: #17594A;
+    height: 5px;
+    border-radius: 10px;
+}
+
+.hero__green-accent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.hero__image-green-accent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero__image-green-line {
+    flex: 1;
+    background-color: #17594A;
+    height: 5px;
+    border-radius: 10px;
 }
